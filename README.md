@@ -148,22 +148,8 @@ note: you can use this code for the permission (the WRITE_EXTERNAL_STORAGE won't
 ```
 ## Choose filter
 This library offer 16 diffrent built in filters
- BLUE
- RED 
- GREEN
- GREY 
- GREY_ON_BLUE
- GREY_ON_RED 
- GREY_ON_GREEN
- INVERT
- COLOR_SWAP
- COLOR_SWAP2
- ORIGINAL
- ALPHA_BLUE
- ALPHA_PINK 
- SEPIA 
- BINARY
- GREY_SCALE
+ BLUE, RED, GREEN, GREY ,GREY_ON_BLUE, GREY_ON_RED, GREY_ON_GREEN,INVERT ,COLOR_SWAP, COLOR_SWAP2, ORIGINAL, ALPHA_BLUE
+ ,ALPHA_PINK ,SEPIA ,BINARY,GREY_SCALE
  
   ```java
 ybFilters.setFilter(imageview, YBFilters.Filters.GREY_ON_RED);
@@ -198,16 +184,8 @@ You can upload an image on 3 ways
 ```
 ## Set adjust
 This library offer 10 diffrent ways to adjust your image
-SCALE
-SATURATION
-ROTATE_BLUE 
-ROTATE_GREEN
-ROTATE_RED 
-SCALE_BLUE
-SCALE_GREEN 
-SCALE_RED
-SEEK_BINARY 
-SEEK_BLACK_WHITE 
+SCALE, SATURATION, ROTATE_BLUE, ROTATE_GREEN, ROTATE_RED, 
+SCALE_BLUE, SCALE_GREEN, SCALE_RED, SEEK_BINARY, SEEK_BLACK_WHITE, 
 
 ```java
  ybFilters.adjust(image_background, YBFilters.Adjust.ROTATE_BLUE , progress);
