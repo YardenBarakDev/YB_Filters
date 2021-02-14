@@ -1,0 +1,3 @@
+include ':YB_FilterLibrary'
+include ':app'
+rootProject.name = "YB Filters"
