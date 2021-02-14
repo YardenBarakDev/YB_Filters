@@ -10,7 +10,7 @@ Picture by Denise Chan on Unsplash
 Original image
 
 
-<img src= "images/original.png" width=200 wide =200>
+<img src="images/original.png" width=200 wide =200>
 
 Red Filter
 
