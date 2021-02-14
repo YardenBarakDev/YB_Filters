@@ -10,56 +10,56 @@ Picture by Denise Chan on Unsplash
 Original image
 
 
-<img src="images/original.png" width=200 wide =200>
+<img src="Images/original.png" width=200 wide =200>
 
 Red Filter
 
 
-<img src= "images/red.png" width=200 wide =200>
+<img src= "Images/red.png" width=200 wide =200>
 
 
 Grey Filter
 
 
-<img src= "images/grey.png" width=200 wide =200>
+<img src= "Images/grey.png" width=200 wide =200>
 
 
 Invert Filter
 
 
-<img src= "images/invert.png" width=200 wide =200>
+<img src= "Images/invert.png" width=200 wide =200>
 
 
 Color swap
 
 
-<img src= "images/swap.png" width=200 wide =200>
+<img src= "Images/swap.png" width=200 wide =200>
 
--------------------------------
+
 Color binary
 
 
-<img src= "images/binary.png" width=200 wide =200>
+<img src= "Images/binary.png" width=200 wide =200>
 
 Binary rotate
 
 
-<img src= "images/binary_rotate.gif" width=500 wide =500>
+<img src= "Images/binary_rotate.gif" width=500 wide =500>
 
 Black white rotate
 
 
-<img src= "images/black_white_rotate.gif" width=500 wide =500>
+<img src= "Images/black_white_rotate.gif" width=500 wide =500>
 
 Saturation
 
-<img src= "images/saturation.gif" width=500 wide =500>
+<img src= "Images/saturation.gif" width=500 wide =500>
 
 
 Color rotate
 
 
-<img src= "images/rotate_colors.gif" width=500 wide =500>
+<img src= "Images/rotate_colors.gif" width=500 wide =500>
 
 
 ##
