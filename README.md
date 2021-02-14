@@ -90,7 +90,7 @@ Step 2. Add the dependency
 YBFilters ybFilters = new YBFilters(context); 
 ```
 
- ###### ask camera permission
+ ## ask camera permission
    ```java
   
 ybFilters.askCameraPermission(this); //activity 
@@ -146,7 +146,7 @@ note: you can use this code for the permission (the WRITE_EXTERNAL_STORAGE won't
         return checkSelfPermission(android.Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_GRANTED;
     }
 ```
-###### Choose filter
+## Choose filter
 This library offer 16 diffrent built in filters
  BLUE
  RED 
@@ -168,7 +168,7 @@ This library offer 16 diffrent built in filters
   ```java
 ybFilters.setFilter(imageview, YBFilters.Filters.GREY_ON_RED);
 ```
-###### Special filters
+## Special filters
 Blur
 you can control how blury the imgae will be by using a float between 0-25
   ```java
@@ -182,7 +182,7 @@ Glass image
   ```java
 ybFilters.glassImage(image_background);
 ```
-###### Upload image
+## Upload image
 You can upload an image on 3 ways
 1. from drawable
 2. from uri
@@ -196,7 +196,7 @@ You can upload an image on 3 ways
   ybFilters.uploadImageDrawable(imageview, R.drawable.image);
 
 ```
-###### Set adjust
+## Set adjust
 This library offer 10 diffrent ways to adjust your image
 SCALE
 SATURATION
@@ -213,7 +213,7 @@ SEEK_BLACK_WHITE
  ybFilters.adjust(image_background, YBFilters.Adjust.ROTATE_BLUE , progress);
 ```
 
-###### Control the colors
+## Control the colors
 this option give you the power to control on the amount of RGB in the photo. you can adjust how much green/blue/red to add or take from the image.
 you will have to work with 6 integers between 0-255.
 in my demo I used a 6 different SeekBars to control each integer seperatly. 
@@ -229,7 +229,7 @@ in my demo I used a 6 different SeekBars to control each integer seperatly.
     ybFilters.manipulateColors(image_background , mulRed,  mulGreen,  mulBlue,  addRed,  addGreen,  addBlue);
 ```
 
-###### Get all filters (without the special ones)
+## Get all filters (without the special ones)
 This option give you the option to get an ArrayList of filters which you can use to see all the filters in a scroll view
 
 ```java
