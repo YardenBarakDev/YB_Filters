@@ -2,8 +2,8 @@
 
 [![](https://jitpack.io/v/YardenBarakDev/YB_Filters.svg)](https://jitpack.io/#YardenBarakDev/YB_Filters)
 
-A library for a simple implementation of Filters and color manipulation. the user will be able to set an Image using Glide(https://github.com/bumptech/glide) and add filters to the image.
-this library also support an easy way to request camera permission 
+A library for a simple implementation of filters and color manipulations. The user will be able to set an image using Glide(https://github.com/bumptech/glide) and add filters to the image.
+This library also supports an easy way to request camera permission.
 
 Picture by Denise Chan on Unsplash
 
@@ -147,7 +147,7 @@ note: you can use this code for the permission (the WRITE_EXTERNAL_STORAGE won't
     }
 ```
 ## Choose filter
-This library offer 16 diffrent built in filters
+This library offers 16 diffrent built in filters
  BLUE, RED, GREEN, GREY ,GREY_ON_BLUE, GREY_ON_RED, GREY_ON_GREEN,INVERT ,COLOR_SWAP, COLOR_SWAP2, ORIGINAL, ALPHA_BLUE
  ,ALPHA_PINK ,SEPIA ,BINARY,GREY_SCALE
  
@@ -183,7 +183,7 @@ You can upload an image on 3 ways
 
 ```
 ## Set adjust
-This library offer 10 diffrent ways to adjust your image
+This library offers 10 diffrent ways to adjust your image
 SCALE, SATURATION, ROTATE_BLUE, ROTATE_GREEN, ROTATE_RED, 
 SCALE_BLUE, SCALE_GREEN, SCALE_RED, SEEK_BINARY, SEEK_BLACK_WHITE, 
 
@@ -192,9 +192,9 @@ SCALE_BLUE, SCALE_GREEN, SCALE_RED, SEEK_BINARY, SEEK_BLACK_WHITE,
 ```
 
 ## Control the colors
-this option give you the power to control on the amount of RGB in the photo. you can adjust how much green/blue/red to add or take from the image.
-you will have to work with 6 integers between 0-255.
-in my demo I used a 6 different SeekBars to control each integer seperatly. 
+This option give you the power to control on the amount of RGB in the photo. You can adjust how much green/blue/red of the image.
+You will have to work with 6 integers between 0-255.
+In my demo I used a 6 different SeekBars to control each integer seperatly. 
 
 ```java
     int mulRed = 0;
@@ -208,7 +208,7 @@ in my demo I used a 6 different SeekBars to control each integer seperatly.
 ```
 
 ## Get all filters (without the special ones)
-This option give you the option to get an ArrayList of filters which you can use to see all the filters in a scroll view
+This will give you an ArrayList of filters which you can use to see all the filters in a scroll view
 
 ```java
     ArrayList<ColorMatrixColorFilter> filters = ybFilters.getAllFilters();
